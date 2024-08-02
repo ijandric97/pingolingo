@@ -1,0 +1,16 @@
+.header {
+  border-bottom: rem(1px) solid var(--mantine-color-default-border);
+}
+
+.title {
+  font-weight: var(--mantine-h4-font-weight);
+  font-size: var(--mantine-h4-font-size);
+}
+
+.body {
+  padding-top: var(--mantine-spacing-lg);
+}
+
+.secondary {
+  margin: 0 var(--mantine-spacing-xl);
+}

@@ -1,0 +1,19 @@
+.image {
+  height: rem(100px);
+  width: rem(100px);
+  object-fit: contain;
+  background-color: var(--mantine-color-dimmed);
+  border: rem(1px) solid rgba(0, 0, 0, 0.5);
+  border-radius: var(--mantine-radius-md);
+  user-select: none;
+  transition: all 500ms;
+}
+
+/* Selected is same as success if its not wrong :) */
+.selected {
+  background-color: var(--mantine-color-green-6);
+}
+
+.error {
+  background-color: var(--mantine-color-red-6);
+}

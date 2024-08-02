@@ -1,0 +1,4 @@
+.button {
+  border: none;
+  border-bottom: rem(5px) solid rgba(0, 0, 0, 0.5);
+}

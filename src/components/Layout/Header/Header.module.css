@@ -1,0 +1,14 @@
+.logoContainer {
+  color: var(--mantine-color-text);
+}
+
+.logo {
+  height: rem(38px);
+  width: rem(38px);
+  filter: drop-shadow(rem(1px) rem(1px) rem(4px) var(--mantine-color-dimmed))
+    drop-shadow(rem(-1px) rem(-1px) rem(4px) var(--mantine-color-dimmed));
+}
+
+.settingsButton {
+  color: var(--mantine-color-text);
+}

@@ -1,0 +1,7 @@
+.bold {
+  font-weight: bold;
+}
+
+.primary {
+  color: var(--mantine-primary-color-6);
+}

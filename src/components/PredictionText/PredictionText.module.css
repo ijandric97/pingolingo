@@ -1,0 +1,20 @@
+.label {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: var(--mantine-radius-sm) var(--mantine-radius-sm) 0 0;
+  border: rem(1px) solid var(--mantine-color-body);
+  background: var(--mantine-color-body);
+  color: var(--mantine-color-default-color);
+}
+
+.valueContainer {
+  border: rem(2px) solid var(--mantine-color-body);
+  border-radius: 0 0 var(--mantine-radius-sm) var(--mantine-radius-sm);
+  background: var(--mantine-color-default-border);
+}
+
+.value {
+  text-align: center;
+  font-family: var(--mantine-font-family);
+  font-weight: normal;
+}

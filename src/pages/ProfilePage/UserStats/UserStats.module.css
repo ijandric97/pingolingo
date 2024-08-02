@@ -1,0 +1,11 @@
+.container {
+  flex-grow: 1;
+}
+
+.item {
+  min-width: rem(280px);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    min-width: 100%;
+  }
+}

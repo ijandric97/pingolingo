@@ -1,0 +1,129 @@
+.container {
+  position: relative;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.container.sad {
+  filter: drop-shadow(2px 4px 6px black) grayscale(1);
+}
+
+.image {
+  max-height: 280px;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.positioned {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.head {
+  animation-name: headAnim;
+  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+}
+
+@keyframes headAnim {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: translateX(-5px) translateY(5px) scale(1.025) rotate(5deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: translateX(5px) translateY(5px) scale(1.025) rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.leg {
+  animation-name: legAnim;
+  animation-timing-function: ease-in-out;
+  animation-duration: 8s;
+}
+
+@keyframes legAnim {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: skew(2deg, 2deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: skew(-2deg, 2deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.wing {
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.25s;
+  animation-direction: alternate;
+}
+.wing.sad {
+  animation-duration: 0.75s;
+}
+
+.leftWing {
+  animation-name: leftWingAnim;
+  left: 0;
+}
+.leftWing.sad {
+  animation-name: leftWingAnimSad;
+}
+
+@keyframes leftWingAnim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: scale(2, 0.75) translateX(15px);
+  }
+}
+
+@keyframes leftWingAnimSad {
+  from {
+    transform: rotate(-70deg) scale(2.5, 0.75) translate(15px, -15px);
+  }
+  to {
+    transform: rotate(-65deg) scale(2.5, 0.75) translate(15px, -15px);
+  }
+}
+
+.rightWing {
+  left: unset;
+  right: 0;
+  animation-name: rightWingAnim;
+}
+.rightWing.sad {
+  animation-name: rightWingAnimSad;
+}
+
+@keyframes rightWingAnim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: scale(2, 0.75) translateX(-15px);
+  }
+}
+
+@keyframes rightWingAnimSad {
+  from {
+    transform: rotate(70deg) scale(2.5, 0.75) translate(-15px, -15px);
+  }
+  to {
+    transform: rotate(65deg) scale(2.5, 0.75) translate(-15px, -15px);
+  }
+}

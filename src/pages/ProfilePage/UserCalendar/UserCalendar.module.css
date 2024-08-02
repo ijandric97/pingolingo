@@ -1,0 +1,25 @@
+.container {
+  @media (max-width: $mantine-breakpoint-xs) {
+    flex-grow: 1;
+  }
+}
+
+.levelsGroup {
+  border: rem(1px) solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-md);
+  background: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    justify-content: center;
+  }
+}
+
+.indicator {
+  width: 100%;
+  text-align: center;
+  color: var(--mantine-color-text);
+  background-color: var(--mantine-primary-color-light);
+  border: rem(1px) solid var(--mantine-primary-color-filled);
+  border-radius: var(--mantine-radius-xs);
+}

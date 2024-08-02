@@ -1,0 +1,4 @@
+.info {
+  text-align: center;
+  max-width: var(--mantine-breakpoint-xs);
+}

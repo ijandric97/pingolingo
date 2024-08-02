@@ -1,0 +1,152 @@
+{
+  "Title": "PingoLingo",
+  "Navbar": {
+    "Links": {
+      "Home": "Home",
+      "Letters": "Letters",
+      "Numbers": "Numbers",
+      "Profile": "Profile"
+    }
+  },
+  "SettingsAside": {
+    "General": {
+      "Title": "General Settings",
+      "DarkMode": "Dark Mode"
+    },
+    "Language": {
+      "Title": "Language Settings",
+      "Placeholder": "Select a language",
+      "Languages": {
+        "hr": "🇭🇷 Croatian",
+        "en": "🇬🇧 English",
+        "de": "🇩🇪 German"
+      }
+    },
+    "GestureRecognition": {
+      "Title": "Gesture Recognition",
+      "Enabled": "Enable Gesture Recognition",
+      "Synthetic": "Use Synthetic Models",
+      "Mirrored": "Mirror image",
+      "Draw": "Draw Gestures",
+      "Dots": {
+        "Color": "Dots Color",
+        "Width": "Dots Width"
+      },
+      "Lines": {
+        "Color": "Lines Color",
+        "Width": "Lines Width"
+      }
+    },
+    "Progress": {
+      "Title": "Progress Settings",
+      "Hearts": "Enable Hearts",
+      "Username": "Username",
+      "ForceFingerspell": "Force Unlock Fingerspell Lessons",
+      "ViewStatistics": "View Statistics",
+      "Reset": "Reset Progress",
+      "Export": "Export Progress",
+      "Import": "Import Progress",
+      "Modal": {
+        "Title": "Confirm Progress Reset",
+        "Description": "Are you sure you want to reset your progress? You will not be able to restore your progress once it has been reset."
+      }
+    }
+  },
+  "NotFoundPage": {
+    "Title": "Page not found",
+    "Message": "The web address that you tried to open does not exist. Please check if you have type the correct web adress. If you believe this is an error, please contact customer support.",
+    "Button": "Go back to home page"
+  },
+  "HomePage": {
+    "Description": "PingoLingo, a fun new way to learn sign language. 🐧",
+    "Buttons": {
+      "GetStarted": "Get Started",
+      "Register": "Register",
+      "Login": "Login"
+    },
+    "Footer": {
+      "MadeWith": "Made with __heart__ in React.",
+      "Contribute": "Contribute to this project on ",
+      "GitHub": "GitHub"
+    }
+  },
+  "LettersPage": {
+    "Title": "PingoLingo - Letters",
+    "LearnButton": "Learn the Letters",
+    "FingerspellButton": "Fingerspelling"
+  },
+  "NumbersPage": {
+    "Title": "PingoLingo - Numbers",
+    "LearnButton": "Learn the numbers"
+  },
+  "ConfirmModal": {
+    "Confirm": "Confirm",
+    "Cancel": "Cancel"
+  },
+  "LessonPage": {
+    "Title": "PingoLingo - Learning",
+    "Error": {
+      "Title": "Something went wrong",
+      "Info": "No questions could be loaded at this time. Please press on the cross in the upper left corner to return back to the Home Screen, or please select which mission type to start."
+    },
+    "Completed": {
+      "Title": "Lesson Completed",
+      "Accuracy": "Accuracy",
+      "Time": "Time",
+      "XP": "XP",
+      "Continue": "Continue"
+    }
+  },
+  "CameraQuestion": {
+    "Expected": "Expected",
+    "Predicted": "Predicted",
+    "ExpectedExamples": "Expected Examples",
+    "Skip": "Skip this question",
+    "SkipLetter": "Skip this letter",
+    "Left": "Left",
+    "Right": "Right"
+  },
+  "LessonModal": {
+    "Correct": "Correct!",
+    "Incorrect": "Unfortunately, incorrect.",
+    "Continue": "Continue"
+  },
+  "ProfilePage": {
+    "Title": "PingoLingo - Profile",
+    "Level": "Level __level__",
+    "Joined": "Joined __date__",
+    "TotalXp": "Total XP",
+    "SignsLearned": "Signs Learned",
+    "DaysStreak": "Days Streak",
+    "Calendar": "Calendar",
+    "Last7Days": "XP Last 7 days",
+    "Accuracy": {
+      "Title": "Accuracy",
+      "Successful": "Successful",
+      "Failed": "Failed"
+    },
+    "Category": {
+      "Title": "Mission Category",
+      "Letters": "Letters",
+      "Numbers": "Numbers",
+      "Words": "Words"
+    },
+    "Type": {
+      "Title": "Mission Type",
+      "Camera": "Camera",
+      "Connect": "Connect 5",
+      "GuessSymbol": "Guess Symbol(s)",
+      "GuessGesture": "Guess Gesture(s)"
+    }
+  },
+  "HelpModal": {
+    "Title": {
+      "Letter": "Letter __name__",
+      "Number": "Number __name__"
+    },
+    "SelectImage": "Click on an image to enlarge it"
+  },
+  "QuestionChoice": {
+    "FingerspellHelp": "Click on the hand images in the correct order to form the following word:"
+  }
+}

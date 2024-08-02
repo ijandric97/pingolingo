@@ -1,0 +1,152 @@
+{
+  "Title": "PingoLingo",
+  "Navbar": {
+    "Links": {
+      "Home": "Startseite",
+      "Letters": "Buchstaben",
+      "Numbers": "Zahlen",
+      "Profile": "Profil"
+    }
+  },
+  "SettingsAside": {
+    "General": {
+      "Title": "Allgemeine Einstellungen",
+      "DarkMode": "Dunkles Thema"
+    },
+    "Language": {
+      "Title": "Spracheinstellungen",
+      "Placeholder": "Wähle eine Sprache",
+      "Languages": {
+        "hr": "🇭🇷 Kroatisch",
+        "en": "🇬🇧 Englisch",
+        "de": "🇩🇪 Deutsch"
+      }
+    },
+    "GestureRecognition": {
+      "Title": "Gestenerkennung",
+      "Enabled": "Aktivieren Gestenerkennung",
+      "Synthetic": "Verwenden synthetische Modelle",
+      "Mirrored": "Bildspiegelung",
+      "Draw": "Aktivieren Gesten Zeichnen",
+      "Dots": {
+        "Color": "Punktfarbe",
+        "Width": "Punktbreite"
+      },
+      "Lines": {
+        "Color": "Linienfarbe",
+        "Width": "Linienbreite"
+      }
+    },
+    "Progress": {
+      "Title": "Fortschrittseinstellungen",
+      "Hearts": "Herzen aktivieren",
+      "Username": "Nutzername",
+      "ForceFingerspell": "Erzwinge das Freischalten von Fingerbuchstabieren-Lektionen",
+      "ViewStatistics": "Statistiken anzeigen",
+      "Reset": "Fortschritt zurücksetzen",
+      "Export": "Exportfortschritt",
+      "Import": "Importfortschritt",
+      "Modal": {
+        "Title": "Bestätigen Sie das Zurücksetzen des Fortschritts",
+        "Description": "Sind Sie sicher, dass Sie Ihren Fortschritt zurücksetzen möchten? Sie können Ihren Fortschritt nach dem Zurücksetzen nicht wiederherstellen."
+      }
+    }
+  },
+  "NotFoundPage": {
+    "Title": "Seite nicht gefunden",
+    "Message": "Die Webadresse, die Sie öffnen wollten, existiert nicht. Bitte überprüfen Sie, ob Sie die richtige Webadresse eingegeben haben. Wenn Sie glauben, dass es sich hierbei um einen Fehler handelt, wenden Sie sich bitte an den Kundendienst.",
+    "Button": "Zurück zur Startseite"
+  },
+  "HomePage": {
+    "Description": "PingoLingo, eine unterhaltsame neue Art, Gebärdensprache zu lernen. 🐧",
+    "Buttons": {
+      "GetStarted": "Loslegen",
+      "Register": "Registrieren",
+      "Login": "Anmeldung"
+    },
+    "Footer": {
+      "MadeWith": "Erstellt mit __heart__ in React.",
+      "Contribute": "Tragen Sie zu diesem Projekt auf ",
+      "GitHub": "GitHub"
+    }
+  },
+  "LettersPage": {
+    "Title": "PingoLingo - Buchstaben",
+    "LearnButton": "Lerne die Buchstaben",
+    "FingerspellButton": "Fingerbuchstabieren"
+  },
+  "NumbersPage": {
+    "Title": "PingoLingo - Zahlen",
+    "LearnButton": "Lerne die Zahlen"
+  },
+  "ConfirmModal": {
+    "Confirm": "Bestätigen",
+    "Cancel": "Stornieren"
+  },
+  "LessonPage": {
+    "Title": "PingoLingo - Lernen",
+    "Error": {
+      "Title": "Etwas ist schief gelaufen",
+      "Info": "Zu diesem Zeitpunkt konnten keine Fragen geladen werden. Bitte drücken Sie auf das Kreuz in der oberen linken Ecke, um zum Startbildschirm zurückzukehren, oder wählen Sie bitte aus, welchen Missionstyp Sie starten möchten."
+    },
+    "Completed": {
+      "Title": "Lektion abgeschlossen",
+      "Accuracy": "Genauigkeit",
+      "Time": "Zeit",
+      "XP": "XP",
+      "Continue": "Weitermachen"
+    }
+  },
+  "CameraQuestion": {
+    "Expected": "Erwartet",
+    "Predicted": "Vorhergesagt",
+    "ExpectedExamples": "Erwartete Beispiele",
+    "Skip": "Überspringen Sie diese Frage",
+    "SkipLetter": "Überspringen Sie diese Brief",
+    "Left": "Links",
+    "Right": "Rechts"
+  },
+  "LessonModal": {
+    "Correct": "Richtig!",
+    "Incorrect": "Leider, falsch.",
+    "Continue": "Weitermachen"
+  },
+  "ProfilePage": {
+    "Title": "PingoLingo - Profil",
+    "Level": "Ebene __level__",
+    "Joined": "Beigetreten __date__",
+    "TotalXp": "Gesamt XP",
+    "SignsLearned": "Zeichen gelernt",
+    "DaysStreak": "Tagesträhne",
+    "Calendar": "Kalender",
+    "Last7Days": "XP Letzte 7 Tage",
+    "Accuracy": {
+      "Title": "Genauigkeit",
+      "Successful": "Erfolgreich",
+      "Failed": "Fehlgeschlagen"
+    },
+    "Category": {
+      "Title": "Missionskategorie",
+      "Letters": "Buchstaben",
+      "Numbers": "Zahlen",
+      "Words": "Wörter"
+    },
+    "Type": {
+      "Title": "Missionstyp",
+      "Camera": "Kamera",
+      "Connect": "Verbinden 5",
+      "GuessSymbol": "Ratet Symbol",
+      "GuessGesture": "Ratet Geste"
+    }
+  },
+  "HelpModal": {
+    "Title": {
+      "Letter": "Briefe __name__",
+      "Number": "Zahlen __name__"
+    },
+    "SelectImage": "Klicken Sie auf ein Bild, um es zu vergrößern"
+  },
+  "QuestionChoice": {
+    "FingerspellHelp": "Klicken Sie in der richtigen Reihenfolge auf die Handbilder, um das folgende Wort zu bilden:"
+  }
+}

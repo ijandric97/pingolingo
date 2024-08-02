@@ -1,0 +1,26 @@
+.image {
+  object-fit: contain;
+  background-color: var(--mantine-color-dimmed);
+  border: rem(1px) solid rgba(0, 0, 0, 0.5);
+  border-radius: var(--mantine-radius-md);
+  user-select: none;
+  /* Placeholder text styles below */
+  font-size: var(--mantine-h1-font-size);
+  text-align: center;
+}
+
+.big {
+  height: rem(256px);
+  width: 100%;
+  line-height: rem(256px);
+}
+
+.small {
+  height: rem(90px);
+  width: rem(90px);
+  line-height: rem(90px);
+}
+
+.selected {
+  background-color: var(--mantine-primary-color-6);
+}

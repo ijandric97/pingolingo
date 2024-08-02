@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.camera {
+  border: rem(1px) solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-md);
+  width: 36em;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    width: 100%;
+  }
+}
+
+.image {
+  height: rem(90px);
+  width: rem(90px);
+  line-height: rem(90px);
+  object-fit: contain;
+  background-color: var(--mantine-color-dimmed);
+  border: rem(1px) solid rgba(0, 0, 0, 0.5);
+  border-radius: var(--mantine-radius-md);
+  user-select: none;
+  /* Placeholder text styles below */
+  font-size: var(--mantine-h1-font-size);
+  text-align: center;
+}
+
+.valueContainer {
+  min-width: rem(94px);
+  min-height: rem(75px);
+  border-radius: var(--mantine-radius-sm);
+  background: var(--mantine-color-body);
+}
+
+.mirror {
+  transform: scale(-1, 1);
+}

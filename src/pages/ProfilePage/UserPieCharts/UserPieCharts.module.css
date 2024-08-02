@@ -1,0 +1,20 @@
+.container {
+  flex-grow: 1;
+}
+
+.itemContainer {
+  min-width: fit-content;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    min-width: 100%;
+  }
+}
+
+.item {
+  border: rem(1px) solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-md);
+  background: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+  justify-content: center;
+  width: 100%;
+}

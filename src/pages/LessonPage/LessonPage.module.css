@@ -1,0 +1,4 @@
+.page {
+  height: 100%;
+  backdrop-filter: blur(50px);
+}

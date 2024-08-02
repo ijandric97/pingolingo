@@ -1,0 +1,50 @@
+.inner {
+  padding: 0;
+}
+
+.content {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-radius: 0;
+}
+
+.body {
+  padding: 0px;
+  color: var(--mantine-color-white);
+  background-color: var(--mantine-color-white);
+}
+
+.success {
+  color: var(--mantine-color-green-filled);
+  background-color: var(--mantine-color-green-filled);
+}
+
+.error {
+  color: var(--mantine-color-red-filled);
+  background-color: var(--mantine-color-red-filled);
+}
+
+.container {
+  padding: var(--mantine-spacing-md);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+}
+
+.stack {
+  width: $mantine-breakpoint-xs;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    width: 100%;
+  }
+}
+
+.title {
+  font-size: var(--mantine-h3-font-size);
+  font-weight: bold;
+}
+
+.description {
+  color: var(--mantine-color-text);
+}

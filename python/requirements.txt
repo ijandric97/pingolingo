@@ -1,0 +1,13 @@
+mediapipe
+opencv-python
+tensorflow
+matplotlib
+protobuf
+black
+flake8
+flake8-bugbear
+mypy
+isort
+jupyterlab
+seaborn
+pandas

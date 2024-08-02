@@ -1,0 +1,152 @@
+{
+  "Title": "PingoLingo",
+  "Navbar": {
+    "Links": {
+      "Home": "Početna",
+      "Letters": "Slova",
+      "Numbers": "Brojevi",
+      "Profile": "Moj Profil"
+    }
+  },
+  "SettingsAside": {
+    "General": {
+      "Title": "Glavne Postavke",
+      "DarkMode": "Tamni način"
+    },
+    "Language": {
+      "Title": "Jezične Postavke",
+      "Placeholder": "Odaberite jezik",
+      "Languages": {
+        "hr": "🇭🇷 Hrvatski",
+        "en": "🇬🇧 Engleski",
+        "de": "🇩🇪 Njemački"
+      }
+    },
+    "GestureRecognition": {
+      "Title": "Prepoznavanje gesta",
+      "Enabled": "Uključi prepoznavanje gest",
+      "Synthetic": "Koristi Sintetičke Modele",
+      "Mirrored": "Zrcaljenje slike",
+      "Draw": "Iscrtaj Konture",
+      "Dots": {
+        "Color": "Boja točki",
+        "Width": "Veličina točki"
+      },
+      "Lines": {
+        "Color": "Boja linija",
+        "Width": "Veličina linija"
+      }
+    },
+    "Progress": {
+      "Title": "Postavke Napretka",
+      "Hearts": "Uključi živote",
+      "Username": "Korisničko ime",
+      "ForceFingerspell": "Unaprijed otključaj slovkanje",
+      "ViewStatistics": "Pregled statistike",
+      "Reset": "Obriši napredak",
+      "Export": "Izvoz napretka",
+      "Import": "Uvoz napretka",
+      "Modal": {
+        "Title": "Potvrdi brisanje napretka",
+        "Description": "Jeste li sigurni da želite poništiti svoj napredak? Nećete moći vratiti svoj napredak nakon što ga poništite."
+      }
+    }
+  },
+  "NotFoundPage": {
+    "Title": "Stranica nije pronađena",
+    "Message": "Stranica koju ste pokušali otvoriti ne postoji. Provjerite ukoliko ste upisali točnu adresu stranice. Ukoliko vjerujete kako je ovo greška, kontaktirajte korisničku podršku.",
+    "Button": "Vrati me na početnu stranicu"
+  },
+  "HomePage": {
+    "Description": "PingoLingo, novi zabavni način za učenje znakovnog jezika. 🐧",
+    "Buttons": {
+      "GetStarted": "Započni",
+      "Register": "Registracija",
+      "Login": "Prijava"
+    },
+    "Footer": {
+      "MadeWith": "Napravljeno s __heart__ pomoću React-a.",
+      "Contribute": "Podržite ovaj projekt na ",
+      "GitHub": "GitHub-u"
+    }
+  },
+  "LettersPage": {
+    "Title": "PingoLingo - Slova",
+    "LearnButton": "Nauči slova",
+    "FingerspellButton": "Slovkanje"
+  },
+  "NumbersPage": {
+    "Title": "PingoLingo - Brojevi",
+    "LearnButton": "Nauči brojeve"
+  },
+  "ConfirmModal": {
+    "Confirm": "Potvrdi",
+    "Cancel": "Odustani"
+  },
+  "LessonPage": {
+    "Title": "PingoLingo - Učenje",
+    "Error": {
+      "Title": "Došlo je do greške",
+      "Info": "Neuspješno učitavanje pitanja. Molimo Va da pritisnete križić u gornjem lijevom kutu kako biste se vratili na početnu stranicu, ili odaberite vrstu učenja kako biste učitali pitanja."
+    },
+    "Completed": {
+      "Title": "Lekcija Završena",
+      "Accuracy": "Točnost",
+      "Time": "Vrijeme",
+      "XP": "Bodovi",
+      "Continue": "Nastavi"
+    }
+  },
+  "CameraQuestion": {
+    "Expected": "Očekivanje",
+    "Predicted": "Pogađanje",
+    "ExpectedExamples": "Primjeri",
+    "Skip": "Preskoči pitanje",
+    "SkipLetter": "Preskoči slovo",
+    "Left": "Lijeva",
+    "Right": "Desna"
+  },
+  "LessonModal": {
+    "Correct": "Točno!",
+    "Incorrect": "Nažalost, netočno.",
+    "Continue": "Nastavi"
+  },
+  "ProfilePage": {
+    "Title": "PingoLingo - Profil",
+    "Level": "Razina __level__",
+    "Joined": "Pridružio/la se __date__",
+    "TotalXp": "Ukupno Bodova",
+    "SignsLearned": "Znakova naučeno",
+    "DaysStreak": "Dana u nizu",
+    "Calendar": "Kalendar",
+    "Last7Days": "Bodovi zadnjih 7 dana",
+    "Accuracy": {
+      "Title": "Točnost",
+      "Successful": "Točno",
+      "Failed": "Netočno"
+    },
+    "Category": {
+      "Title": "Kategorije zadataka",
+      "Letters": "Slova",
+      "Numbers": "Brojevi",
+      "Words": "Riječi"
+    },
+    "Type": {
+      "Title": "Vrste zadataka",
+      "Camera": "Kamera",
+      "Connect": "Spoji 5",
+      "GuessSymbol": "Pogodi Znak",
+      "GuessGesture": "Pogodi Gestu"
+    }
+  },
+  "HelpModal": {
+    "Title": {
+      "Letter": "Slovo __name__",
+      "Number": "Broj __name__"
+    },
+    "SelectImage": "Kliknite na sliku da biste je povećali"
+  },
+  "QuestionChoice": {
+    "FingerspellHelp": "Odaberite zankove u točnom redoslijedu slovkanja za sljedeće riječ:"
+  }
+}

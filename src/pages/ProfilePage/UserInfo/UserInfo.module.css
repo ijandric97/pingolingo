@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+}
+
+.avatar {
+  background: radial-gradient(
+    circle,
+    var(--mantine-primary-color-filled) 0%,
+    var(--mantine-color-body) 33%,
+    var(--mantine-primary-color-filled) 66%,
+    var(--mantine-color-body) 100%
+  );
+  border: rem(1px) solid var(--mantine-color-default-border);
+}
+
+.name {
+  font-family: var(--mantine-font-family-headings);
+  font-weight: bold;
+}

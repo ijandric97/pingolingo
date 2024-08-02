@@ -1,0 +1,16 @@
+.container {
+  flex-grow: 1;
+  width: 1px;
+  min-width: 350px;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    min-width: 100%;
+  }
+}
+
+.chart {
+  border: rem(1px) solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-md);
+  background: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+}

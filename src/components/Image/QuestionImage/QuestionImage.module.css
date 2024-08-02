@@ -1,0 +1,9 @@
+.image {
+  height: rem(256px);
+  width: rem(256px);
+  object-fit: contain;
+  background-color: var(--mantine-color-dimmed);
+  border: rem(1px) solid rgba(0, 0, 0, 0.5);
+  border-radius: var(--mantine-radius-md);
+  user-select: none;
+}

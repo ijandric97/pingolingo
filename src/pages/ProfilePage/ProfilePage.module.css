@@ -1,0 +1,5 @@
+.container {
+  backdrop-filter: blur(50px);
+  min-height: 100%;
+  min-width: 100%;
+}
